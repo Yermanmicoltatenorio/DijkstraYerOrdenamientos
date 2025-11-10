@@ -33,7 +33,7 @@ public class Dijkstra {
             }
         }
 
-        System.out.println("Distancias mínimas desde el nodo 0:");
+        System.out.println("Distancias minima desde el nodo 0:");
         for (int i = 0; i < n; i++) {
             System.out.println("Nodo " + i + " -> " + dist[i]);
         }
